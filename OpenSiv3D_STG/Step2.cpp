@@ -16,6 +16,9 @@ void Step2Main()
 
 	while (System::Update())
 	{
+		ClearPrint(); // 文字のクリア
+		Print << U"Step2: 自機の移動"; // ステップ2の説明
+
 		// 自機の移動(後で)
 		if (KeyLeft.pressed())
 		{
