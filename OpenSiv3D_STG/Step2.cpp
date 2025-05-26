@@ -2,6 +2,9 @@
 
 void Step2Main()
 {
+	ClearPrint(); // 文字のクリア
+	Print << U"Step2: 自機の移動"; // ステップ2の説明
+
 	// 自機の位置
 	Vec2 playerPos{ 400, 500 };
 

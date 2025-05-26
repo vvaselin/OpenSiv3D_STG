@@ -10,6 +10,9 @@ void Step1Main()
 
 	while (System::Update())
 	{
+		ClearPrint(); // 文字のクリア
+		Print << U"Step1: 自機の描画"; // ステップ1の説明
+
 		// 自機の移動(後で)
 
 		// プレイヤーの描画
