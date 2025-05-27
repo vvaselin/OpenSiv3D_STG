@@ -56,8 +56,7 @@ void Step5Main()
 			{
 				playerBullets << playerPos.movedBy(0, -0); // 自機の位置から上方向にショットを発射
 				PlayerShotTimer = 0.0; // クールタイムをリセット
-			}
-			
+			}	
 		}
 
 		// 自機ショットを移動させる
