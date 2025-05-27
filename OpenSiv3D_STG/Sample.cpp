@@ -13,9 +13,9 @@ void SampleMain()
 	const Font font{ FontMethod::MSDF, 48 };
 
 	// 自機テクスチャ
-	const Texture playerTexture{ U"🤖"_emoji };
+	const Texture playerTexture{ 0xF1383_icon, 70 };
 	// 敵テクスチャ
-	const Texture enemyTexture{ U"👾"_emoji };
+	const Texture enemyTexture{ 0xF0BC9_icon, 60 };
 
 	// 自機
 	Vec2 playerPos{ 400, 500 };
@@ -217,7 +217,7 @@ void SampleMain()
 		}
 
 		// 自機を描画する
-		playerTexture.resized(80).flipped().drawAt(playerPos);
+		playerTexture.drawAt(playerPos);
 
 		// 自機ショットを描画する
 		for (const auto& playerBullet : playerBullets)
@@ -228,7 +228,7 @@ void SampleMain()
 		// 敵を描画する
 		for (const auto& enemy : enemies)
 		{
-			enemyTexture.resized(60).drawAt(enemy);
+			enemyTexture.drawAt(enemy);
 		}
 
 		// 敵ショットを描画する

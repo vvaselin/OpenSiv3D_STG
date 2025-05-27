@@ -123,6 +123,9 @@
     </ClCompile>
     <ClCompile Include="Step1.cpp" />
     <ClCompile Include="Step2.cpp" />
+    <ClCompile Include="Step3.cpp" />
+    <ClCompile Include="Step4.cpp" />
+    <ClCompile Include="Step5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\engine\texture\box-shadow\128.png" />
@@ -332,6 +335,9 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Step1.hpp" />
     <ClInclude Include="Step2.hpp" />
+    <ClInclude Include="Step3.hpp" />
+    <ClInclude Include="Step4.hpp" />
+    <ClInclude Include="Step5.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App\example\obj\blacksmith.obj">

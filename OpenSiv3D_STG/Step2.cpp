@@ -6,7 +6,7 @@ void Step2Main()
 	Vec2 playerPos{ 400, 500 };
 
 	// 自機のテクスチャ
-	const Texture playerTexture{ U"🛸"_emoji };
+	const Texture playerTexture{ 0xF1383_icon, 70 };
 
 	// 自機のスピード
 	constexpr double PlayerSpeed = 550.0;
@@ -16,7 +16,7 @@ void Step2Main()
 		ClearPrint(); // 文字のクリア
 		Print << U"Step2: 自機の移動"; // ステップ2の説明
 
-		// 自機の移動(後で)
+		// 自機の移動
 		if (KeyLeft.pressed())
 		{
 			playerPos.x -= PlayerSpeed * Scene::DeltaTime();
@@ -35,6 +35,6 @@ void Step2Main()
 		}
 
 		// プレイヤーの描画
-		playerTexture.resized(80).drawAt(playerPos);
+		playerTexture.drawAt(playerPos);
 	}
 }
