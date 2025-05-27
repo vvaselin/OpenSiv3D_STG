@@ -153,6 +153,15 @@
     <ClCompile Include="Step2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Step3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Step4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Step5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -825,6 +834,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Step2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Step3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Step4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Step5.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
